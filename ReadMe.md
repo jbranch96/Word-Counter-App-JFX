@@ -6,11 +6,11 @@
  
  - [Introduction](#introduction)
  - [Features](#features)
-	Changing the Code
-	Steps to Run the Code
-	Usage
-	Technologies Used
-	Project Structure
+ - [Changing the Code](#changing-the-code)
+ - [Steps to Run the Code)](#steps-to-run-the-code)
+ - [Usage](#usage)
+ - [Technologies Used](#technologies-used)
+ - [Project Structure](#project-structure)
 
 ## Introduction
 
@@ -30,12 +30,12 @@
 	
  	Clear Text: Easily clear the current text input to start new.
 	
-Changing the Code:
+## Changing the Code
 	
 	Java 22: This app is built using Java 22
 	JavaFX SDK: This application uses the JavaFX SDK for the GUI components. The JavaFX SDK is included in the repo, however, if issues arise the download for the JavaFX SDK can be found here - https://openjfx.io/.
 	
-Steps to Run the Code:
+## Steps to Run the Code
         
 	1. Clone the Repository: git clone https://github.com/yourusername/Word-Counter-App.git
 	2. Compile and Run:
@@ -43,7 +43,7 @@ Steps to Run the Code:
 			To compile: ./compile.bat
 			To run: ./run.bat
 	
-Usage:
+## Usage
 	
 	Launch the Application: Upon starting the app, you will be presented with a user-friendly text area for input.
 	        
@@ -58,12 +58,12 @@ Usage:
 		        
         	Upload a text file for analysis or download the current text as a file.
 
-Technologies Used:
+## Technologies Used
 	
 	Java 22: Core language used for building the application.
 	JavaFX 23: For designing the graphical user interface (GUI).
 	
-Word Counter App/
+## Project Structure
 
         │
         ├── bin/                            # Compiled .class files
