@@ -20,20 +20,20 @@
 	
 ## Features
 	
-	Word and Character Counting: Calculates the total number of words and characters in the input text.
+	**Word and Character Counting:** Calculates the total number of words and characters in the input text.
 	
- 	Find and Replace: Allows users to search for specific words or phrases and replace them with new ones.
+ 	**Find and Replace:** Allows users to search for specific words or phrases and replace them with new ones.
 	
- 	Undo/Redo: Provides the ability to undo and redo text changes for flexibility in text editing.
+ 	**Undo/Redo:** Provides the ability to undo and redo text changes for flexibility in text editing.
 	
- 	Upload/Download from File: Supports loading text from a file and saving analyzed results back to a file.
+ 	**Upload/Download from File:** Supports loading text from a file and saving analyzed results back to a file.
 	
- 	Clear Text: Easily clear the current text input to start new.
+ 	**Clear Text:** Easily clear the current text input to start new.
 	
 ## Changing the Code
 	
-	Java 22: This app is built using Java 22
-	JavaFX SDK: This application uses the JavaFX SDK for the GUI components. The JavaFX SDK is included in the repo, however, if issues arise the download for the JavaFX SDK can be found here - https://openjfx.io/.
+	**Java 22:** This app is built using Java 22
+	**JavaFX SDK:** This application uses the JavaFX SDK for the GUI components. The JavaFX SDK is included in the repo, however, if issues arise the download for the JavaFX SDK can be found here - https://openjfx.io/.
 	
 ## Steps to Run the Code
         
