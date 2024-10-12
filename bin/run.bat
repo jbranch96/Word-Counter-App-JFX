@@ -1,1 +1,0 @@
-java --module-path "C:\Git Projects\Word Counter App\libs\javafx-sdk-23\lib" --add-modules javafx.controls,javafx.graphics  WordCounterJFX.mainapp.MainApp
