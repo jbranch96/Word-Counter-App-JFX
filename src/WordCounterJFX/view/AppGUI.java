@@ -23,7 +23,7 @@ import WordCounterJFX.utils.GetIconPath;
  */
 
 public class AppGUI extends Application {
-    protected String APP_VERSION = "1.0.0a"; // major.minor.patch, a - test build, b - deploy build
+    protected String APP_VERSION = "1.0.0b"; // major.minor.patch, a - test build, b - deploy build
 
     private Button buttonClear;
     private TextArea textArea;

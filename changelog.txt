@@ -1,0 +1,5 @@
+10/12/2024:
+   1.0.0b
+   - Initial deploy build of App, no test cases derrived, and minimal testing done through UI interaction.
+   - GUI and availible buttons fully implemented.
+   - Build and run batch scripts developed, should work independently of where top level folder is placed/named as long as inner hierarchy/naming isn't changed.
