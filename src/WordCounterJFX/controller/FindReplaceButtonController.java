@@ -80,6 +80,7 @@ public class FindReplaceButtonController extends WordCounterJFX.controller.FindB
         VBox modalLayout = new VBox(20); // 20px space between elements
         modalLayout.getChildren().addAll(phraseField, replaceField, caseSensitiveCheck, searchButton, replaceButton, this.matchesFoundLabel, scrollPane);
         modalLayout.setAlignment(Pos.CENTER); // center alignment of elements
+        modalLayout.setStyle("-fx-background-color: lightblue;"); // set widow background color
         
         Scene modalScene = new Scene(modalLayout, 600, 400);
         Image icon = new Image(GetIconPath.getIconPath());

@@ -23,7 +23,7 @@ import WordCounterJFX.utils.GetIconPath;
  */
 
 public class AppGUI extends Application {
-    protected String APP_VERSION = "1.0.0b"; // major.minor.patch, a - test build, b - deploy build
+    protected String APP_VERSION = "1.0.0 b"; // major.minor.patch, a - test build, b - deploy build
 
     private Button buttonClear;
     private TextArea textArea;
@@ -80,6 +80,7 @@ public class AppGUI extends Application {
         gridPane.add(new ImageView(icon), 0, 2);
         gridPane.add(this.labelCharCount, 5, 1);
         gridPane.add(this.buttonHelp, 9, 1);
+        gridPane.setStyle("-fx-background-color: lightblue;"); // Set widow background color
     
         Scene scene = new Scene(gridPane, 1150, 450); // Create a scene (width(px), len(px))
 
