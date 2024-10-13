@@ -1,6 +1,6 @@
 # Word Counter App
 
-![Word-Counter-App-JFX](AppImage.png)
+
 
  ## Table of Contents
  
