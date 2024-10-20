@@ -23,7 +23,7 @@ public class DownloadButtonController {
     }
     
     public void setupButtonActions() {
-        if(this.downloadButton != null) {
+        if(this.downloadButton != null && this.textArea != null) {
             this.downloadButton.setOnAction(e -> { saveToFile(); }); // Add action lister to the button, listener downloads the text from the textArea object to a .txt file
         } else { return; }
     }

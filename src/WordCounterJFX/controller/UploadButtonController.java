@@ -23,7 +23,7 @@ public class UploadButtonController {
     }
     
     public void setupButtonActions() {
-        if(this.uploadButton != null) {
+        if(this.uploadButton != null || this.textArea != null) {
             this.uploadButton.setOnAction(e -> { readFromFile(); }); // Add action lister to the button, listener uploads text from a .txt file to the textArea object
         } else { return; }
     }

@@ -4,6 +4,7 @@ set "BIN_DIR=%CD%\bin"
 set "SRC_DIR=%CD%\src\WordCounterJFX"
 
 javac --module-path "%MODULE_PATH%" --add-modules javafx.controls,javafx.graphics -d "%BIN_DIR%"^
+ "%SRC_DIR%\mainapp\MainApp.java"^
  "%SRC_DIR%\view\AppGUI.java"^
  "%SRC_DIR%\controller\ClearButtonController.java"^
  "%SRC_DIR%\controller\DownloadButtonController.java"^

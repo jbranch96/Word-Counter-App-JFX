@@ -17,7 +17,7 @@ public class UndoButtonController {
     }
 
     public void setupButtonActions() {
-        if(this.undoButton != null) {
+        if(this.undoButton != null && this.undoAndRedo != null) {
             this.undoButton.setOnAction(e -> { undoAndRedo.processUndoAction(); }); // Add action lister to the button
         } else { return; }
     }

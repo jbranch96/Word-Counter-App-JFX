@@ -6,7 +6,6 @@ import java.util.Stack;
 import java.util.Timer;
 import java.util.TimerTask;
 
-
 // Making this a singleton to allow non-static reference calls from the Undo & Redo controllers, 
 // but limit instatiation for this class to a single instance
 public class UndoAndRedo {

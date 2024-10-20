@@ -17,7 +17,7 @@ public class ClearButtonController {
     }
     
     public void setupButtonActions() {
-        if(this.clearButton != null) {
+        if(this.clearButton != null && this.textArea != null) {
             this.clearButton.setOnAction(e -> { this.textArea.clear(); }); // Add action lister to the button, listener clears text box on click
         } else { return; }
     }

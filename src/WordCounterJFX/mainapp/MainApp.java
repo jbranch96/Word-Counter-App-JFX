@@ -20,7 +20,7 @@ public class MainApp extends Application{
     public void start(Stage primaryStage) {
         AppGUI appGUI = new AppGUI();
 
-        appGUI.start(primaryStage);
+        appGUI.buildGUI(primaryStage);
 
         WordAndCharCounter counter = new WordAndCharCounter(appGUI);
         counter.setupTextAreaListener();

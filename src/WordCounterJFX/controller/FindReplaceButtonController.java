@@ -38,7 +38,7 @@ public class FindReplaceButtonController extends WordCounterJFX.controller.FindB
 
     @Override
     protected void openModalWindow() {
-        super.textFlow.getChildren().clear();
+        this.textFlow.getChildren().clear();
         Stage modalStage = new Stage();
         modalStage.initModality(Modality.APPLICATION_MODAL); // Set modality to block main GUI when open
         modalStage.setTitle("Find & Replace Window");
@@ -68,8 +68,9 @@ public class FindReplaceButtonController extends WordCounterJFX.controller.FindB
             String oldText = phraseField.getText();
             String replaceText = replaceField.getText();
             Boolean caseSensitive = caseSensitiveCheck.isSelected();
-            if(!this.textArea.getText().equals("") && !oldText.equals("") && !replaceText.equals(""))
-            replacePhraseInTextArea(oldText, replaceText, caseSensitive); 
+            if(!this.textArea.getText().equals("") && !oldText.equals("") && !replaceText.equals("")) {
+                replacePhraseInTextArea(oldText, replaceText, caseSensitive);
+            } 
         });
 
         // Wrap TextFlow in a ScrollPane

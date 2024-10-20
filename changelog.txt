@@ -1,3 +1,8 @@
+10/20/2024:
+   1.0.0b
+   - Changed GUI color to blue-gray color - rgb(117,148,165).
+   - Minor code refactoring.
+
 10/12/2024:
    1.0.0b
    - Initial deploy build of App, no test cases derrived, and minimal testing done through UI interaction.

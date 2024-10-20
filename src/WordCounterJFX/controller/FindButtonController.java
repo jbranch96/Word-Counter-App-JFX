@@ -33,7 +33,7 @@ public class FindButtonController {
     }
     
     public void setupButtonActions() {
-        if(this.findButton != null) {
+        if(this.findButton != null && this.textArea != null) {
             this.findButton.setOnAction(e -> { openModalWindow(); }); // Add action lister to the button, listener launches model on click
         } else { return; }
     }
@@ -100,7 +100,7 @@ public class FindButtonController {
             if(matchIndex == -1) {
                 textNode = new Text(textAreaContent.substring(startIndex));
                 textNode.setFill(Color.BLACK); // Regular text
-                textFlow.getChildren().add(textNode);
+                this.textFlow.getChildren().add(textNode);
                 break;
             }
 
@@ -108,7 +108,7 @@ public class FindButtonController {
             if(matchIndex > startIndex) {
                 Text beforeMatch = new Text(textAreaContent.substring(startIndex, matchIndex));
                 beforeMatch.setFill(Color.BLACK); // Regular text
-                textFlow.getChildren().add(beforeMatch);
+                this.textFlow.getChildren().add(beforeMatch);
             }
 
             // Add the matched text with highlighting
@@ -116,7 +116,7 @@ public class FindButtonController {
             Text matchNode = new Text(matchedText);
             matchNode.setFill(Color.RED); // Highlight matches in red
             matchNode.setStyle("-fx-font-weight: bold;"); // Make matches bold
-            textFlow.getChildren().add(matchNode);
+            this.textFlow.getChildren().add(matchNode);
 
             startIndex = matchIndex + phrase.length(); // Update startIndex for the next search
             counter += 1; // Update counter before the next search

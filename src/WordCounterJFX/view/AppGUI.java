@@ -1,6 +1,5 @@
 package WordCounterJFX.view;
 
-import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -15,15 +14,11 @@ import javafx.stage.Stage;
 import WordCounterJFX.utils.GetIconPath;
 
 /**
- * This class extends the Application abstract class provided by the JavaFX framework. 
- * It overrides the start method, with the GUI element creation methods for the application.  
- * The GUI elements are defined here, but the data modeling/parsing and GUI functionality is handled elsewhere.
- * 
- * The main application should invoke an instance of AppGUI and call the start method to launch the GUI.
+ * This class builds the GUI for the WordCounterJFX application.
  */
 
-public class AppGUI extends Application {
-    protected String APP_VERSION = "1.0.0 b"; // major.minor.patch, a - test build, b - deploy build
+public class AppGUI {
+    private String APP_VERSION = "1.1.0 b"; // major.minor.patch, a - test build, b - deploy build
 
     private Button buttonClear;
     private TextArea textArea;
@@ -31,8 +26,7 @@ public class AppGUI extends Application {
     private Button buttonUpload, buttonDownload, buttonHelp;
     private Label labelVersionInfo, labelWordCount, labelCharCount;
 
-    @Override
-    public void start(Stage primaryStage) {
+    public void buildGUI(Stage primaryStage) {
 
         Image icon = new Image(GetIconPath.getIconPath()); // get application icon
 
@@ -80,7 +74,7 @@ public class AppGUI extends Application {
         gridPane.add(new ImageView(icon), 0, 2);
         gridPane.add(this.labelCharCount, 5, 1);
         gridPane.add(this.buttonHelp, 9, 1);
-        gridPane.setStyle("-fx-background-color: lightblue;"); // Set widow background color
+        gridPane.setStyle("-fx-background-color: rgb(117, 148, 165);"); // Set widow background color
     
         Scene scene = new Scene(gridPane, 1150, 450); // Create a scene (width(px), len(px))
 
