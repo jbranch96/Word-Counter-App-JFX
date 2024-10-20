@@ -7,7 +7,7 @@
  - [Introduction](#introduction)
  - [Features](#features)
  - [Changing the Code](#changing-the-code)
- - [Steps to Run the Code)](#steps-to-run-the-code)
+ - [Steps to Run the Code](#steps-to-run-the-code)
  - [Usage](#usage)
  - [Technologies Used](#technologies-used)
  - [Project Structure](#project-structure)
