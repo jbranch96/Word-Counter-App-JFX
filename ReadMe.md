@@ -37,7 +37,7 @@
 	
 ## Steps to Run the Code
         
-- 1. Clone the Repository: "git clone https://github.com/yourusername/Word-Counter-App.git"
+- 1. Clone the Repository: "git clone https://github.com/yourusername/Word-Counter-App-JFX.git"
 - 2. Compile and Run:
 	- Navigate to the project folder and run the batch files:
 		- To compile:  **./compile.bat**
