@@ -1,4 +1,4 @@
-# Word Counter App
+# WordCounterJFX - Another word counter app built in Java!
 
 ![Word-Counter-App-JFX](AppImage.png)
 
@@ -56,7 +56,7 @@
  	- Clear the text, or undo/redo your previous actions.
   	- Upload a text file for analysis or download the current text as a file.
 
-## Technologies Used
+## Tech Used
 	
 - Java 22: Core language used for building the application.
 - JavaFX 23: For designing the graphical user interface (GUI).
