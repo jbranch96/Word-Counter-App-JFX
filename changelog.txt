@@ -1,5 +1,9 @@
+11/20/2024:
+	1.1.1b
+	- Changed GUI icon (icon.png)
+
 10/20/2024:
-   1.0.0b
+   1.1.0b
    - Changed GUI color to blue-gray color - rgb(117,148,165).
    - Minor code refactoring.
 
