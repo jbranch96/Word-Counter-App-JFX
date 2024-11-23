@@ -14,7 +14,7 @@
 
 ## Introduction
 
-- The Word Counter App is a JavaFX-based desktop application that allows users to analyze text by counting words and characters.
+- The Word Counter App is a JavaFX-based GUI application that allows users to analyze text by counting words and characters.
  
 - The app includes additional functionalities such as finding and replacing text, undoing and redoing changes, and uploading/downloading text files for analysis.
 	
