@@ -1,7 +1,9 @@
 @echo off
-set "MODULE_PATH=%CD%\libs\javafx-sdk-23\lib"
-set "BIN_DIR=%CD%\bin"
-set "SRC_DIR=%CD%\src\WordCounterJFX"
+for %%i in ("%CD%") do set "PD=%%~dpi"
+set "PD=%PD:~0,-1%"
+set "MODULE_PATH=%PD%\libs\javafx-sdk-23\lib"
+set "BIN_DIR=%PD%\bin"
+set "SRC_DIR=%PD%\src\WordCounterJFX"
 
 javac --module-path "%MODULE_PATH%" --add-modules javafx.controls,javafx.graphics -d "%BIN_DIR%"^
  "%SRC_DIR%\mainapp\MainApp.java"^

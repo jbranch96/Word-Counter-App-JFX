@@ -18,7 +18,7 @@ import WordCounterJFX.utils.GetIconPath;
  */
 
 public class AppGUI {
-    private String APP_VERSION = "1.1.1 b"; // major.minor.patch, a - test build, b - deploy build
+    private String APP_VERSION = "1.1.2 b"; // major.minor.patch, a - test build, b - deploy build
 
     private Button buttonClear;
     private TextArea textArea;

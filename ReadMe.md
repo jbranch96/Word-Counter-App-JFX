@@ -1,6 +1,6 @@
 # WordCounterJFX - 
 
-![Word-Counter-App-JFX](AppImage.png)
+![Word-Counter-App-JFX](images/AppImage.png)
 
  ## Table of Contents
  

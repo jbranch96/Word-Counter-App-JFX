@@ -1,4 +1,4 @@
 docs
-mycompile.bat
-myrun.bat
+scripts/mycompile.bat
+scripts/myrun.bat
 image_src
