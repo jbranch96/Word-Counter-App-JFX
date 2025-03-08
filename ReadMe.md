@@ -9,8 +9,8 @@
  - [Changing the Code](#changing-the-code)
  - [Steps to Run the Code](#steps-to-run-the-code)
  - [Usage](#usage)
- - [Technologies Used](#technologies-used)
- - [Project Structure](#project-structure)
+ - [Tech Used](#tech-used)
+ - [Project Code Structure](#project-code-structure)
 
 ## Introduction
 
@@ -39,9 +39,9 @@
         
 - 1. Clone the Repository: "git clone https://github.com/jbranch96/Word-Counter-App-JFX.git"
 - 2. Compile and Run:
-	- Navigate to the project folder and run the batch files:
-		- To compile:  **./compile.bat**
-		- To run:      **./run.bat**
+	- Navigate to the scripts folder and run the batch or python scripts:
+		- To compile:  **./compile.bat** or alternatively **Python compile.py**
+		- To run:      **./run.bat** or alternatively **Python run.py**
 	
 ## Usage
 	
@@ -61,17 +61,20 @@
 - Java 22: Core language used for building the application.
 - JavaFX 23: For designing the graphical user interface (GUI).
 	
-## Project Structure
+## Project Code Structure
 
         │
-        ├── bin/                            # Compiled .class files
-        ├── libs/                           # JavaFX SDK and other dependencies
-        ├── src/                            # Source files
+        ├── bin/                        # Compiled .class files
+        ├── libs/                       # JavaFX SDK and other dependencies
+        ├── src/                        # Source files
         │   └── WordCounterJFX/             
-        │       ├── mainapp/                # Main entry point
-        │       ├── controller/             # Controllers for the app's logic
-        │       ├── model/                  # Model classes for undo/redo and word counting
-        │       ├── utils/                  # Utility classes for managing file I/O, icons, etc.
-        │       └── view/                   # UI classes (JavaFX GUI components)
-        ├── compile.bat                     # Batch file to compile the app
-        └── run.bat                         # Batch file to run the app
+        │       ├── mainapp/            # Main entry point
+        │       ├── controller/         # Controllers for the app's logic
+        │       ├── model/              # Model classes for undo/redo and word counting
+        │       ├── utils/              # Utility classes for managing file I/O, icons, etc.
+        │       └── view/               # UI classes (JavaFX GUI components)
+        ├── scripts/			    	
+            └── compile.bat             # Batch script to compile the app
+            └── run.bat                 # Batch script to run the app
+            └── compile.py              # Python script to compile the app
+            └── run.py                  # Python script to run the app
