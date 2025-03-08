@@ -1,4 +1,4 @@
-# WordCounterJFX - Another word counter app built in Java!
+# WordCounterJFX - 
 
 ![Word-Counter-App-JFX](AppImage.png)
 
